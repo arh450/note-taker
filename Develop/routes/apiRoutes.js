@@ -39,8 +39,9 @@ router.post("/notes", (req, res) => {
 });
 
 // allow users to delete previous saved notes
-router.delete("/notes", (req, res) => {
-    console.log("Test delete");
+router.delete("/notes/:id", (req, res) => {
+
 });
+
 
 module.exports = router;
