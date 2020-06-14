@@ -1,9 +1,12 @@
 const router = require("express").Router();
+const fs = require("fs");
+const notes = require("../db/db.json");
+
+
 
 // allow users to create and save notes 
 router.post("/notes", (req, res) => {
-    const { title, text } = req.body;
-    console.log(title, text);
+
 });
 
 // allow users to view previous saved notes 
